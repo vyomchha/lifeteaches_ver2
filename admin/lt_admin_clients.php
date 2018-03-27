@@ -53,7 +53,6 @@
 	<body>
 
 		<?php
-			echo "<a href='lt_admin.php'>RETURN TO MAIN MENU</a><br><br>";
 			require ("../etc/config.php");
 
 			// Create connection
@@ -63,7 +62,7 @@
 			if ($conn->connect_error) {
 				die("Connection failed: " . $conn->connect_error);
 			}
-			$sql="SELECT * FROM Clients";
+			$sql="SELECT * FROM News";
 			$id = 0;
 			
 			$result = mysqli_query($conn,$sql);
