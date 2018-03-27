@@ -2,15 +2,11 @@
 DROP TABLE Main;
 
 --Create Table
-CREATE TABLE Main (
+CREATE TABLE News (
     ID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,
-    Name varchar(50) NOT NULL,
-    Address varchar(255),
-    Phone varchar(50),
-    Website varchar(50),
-    Email varchar(50),
-    Services varchar(255),
-    Areas varchar(255)
+    Header text NOT NULL,
+	content text,
+	cdate date,
 );
 
 --Add Data to Table
