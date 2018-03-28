@@ -93,7 +93,29 @@ if ($_POST["action"] == "delete") {
 		
 		<!--Link StyleSheets-->
         <link rel="stylesheet" type="text/css" href="../css/lt_css_admin.css">
-		
+		<style>
+		#m-container {
+			width: 45vw;
+			margin: auto;
+			position: relative;
+			display: inline-block;
+			float:left;
+			margin: 0 1.5vw;
+		}
+		#pre {
+			width: 41vw;
+			margin: auto;
+			position: relative;
+			display: inline-block;
+			float:left;
+			border: solid black;
+			padding: 2vw;
+			margin: 0 1.5vw;
+		}
+		#editor-container {
+			height: 50vh;
+		}
+		</style>
 	</head>
 	<body>
 	<h1 style="text-align:center;">Please Create an Article:</h1><hr>
@@ -103,16 +125,17 @@ if ($_POST["action"] == "delete") {
 		echo "<form action='lt_admin_news_update.php' method='post' enctype='multipart/form-data'>";
 		echo "<td><a href='http://www.lifeteaches.org/admin/lt_admin_news.php'>Back to Selection</a></td>";
 		echo "<td><input type='hidden' name='ID' value='$ID' readonly>ID:$ID</td>";
-		echo "<td><input type='hidden' name='cdate' value='$cdate' readonly>DATE:$cdate</td>";
-		echo "<td class='td_long'><input type='text' name='header' value='$header'></td>";
+		echo "<td><input type='hidden' name='cdate' value='$cdate' readonly>$cdate</td>";
+		echo "<td class='td_long'>HEADING:<input type='text' name='header' value='$header'></td>";
 		echo "<td><input type='submit' name='action' value='update'></td>";
 		echo "<input type='hidden' name='content_js' value='$content_js' readonly>";
 		echo "<input type='hidden' name='content_ht' value='$content_ht' readonly>";
 		echo "<input type='hidden' name='file_js' value='$file_js' readonly>";
 		echo "<input type='hidden' name='file_ht' value='$file_ht' readonly>";
-		echo "</form></tr></table>";
+		echo "</form></tr></table><br><hr><br>";
+		echo "<div id='pre'><h1>$header</h1><hr>".html_entity_decode($file_ht)."</div>";
 	?>
-		<div id="main-container">
+		<div id="m-container">
 			<div id="editor-container"></div>
 		</div>
 	</body>

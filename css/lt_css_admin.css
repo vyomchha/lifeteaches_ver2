@@ -43,9 +43,16 @@ a {
 	color: rgba(40,40,40,1);
 }
 #main-container {
-	width: 62vw;
+	width: 48vw;
 	margin: auto;
 	position: relative;
+	display: inline-block;
+}
+#previous {
+	width: 48vw;
+	margin: auto;
+	position: relative;
+	display: inline-block;
 }
 #editor-container {
 	height: 50vh;
