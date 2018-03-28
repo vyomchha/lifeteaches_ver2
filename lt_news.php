@@ -48,18 +48,18 @@
 								<br>
 								<hr>
 								<br>
-								Life Teaches Foundation was created to empower and restore hope and faith in humanity, in the spirit of people helping people to solve all the world's
-								problems, one problem at a time, one person at a time.
+Life Teaches Foundation was created to empower and restore hope and faith in humanity, in the spirit of people helping people to solve all the world's
+problems, one problem at a time, one person at a time.
 								<br>
 								<hr>
 								<br>
-								Our goal is to celebrate success, thereby creating more success! Inspiring and Empowering people to improve their quality of life by fostering a spirit of
-								people helping people. If you understand only one thing I say here, let it be this: People are our best resource. Money provides options. All the money
-								in the world is worthless without someone to pay for the services or goods you need. When you have money, you can afford whoever or whatever you
-								need. The fewer your resources, the fewer your options. You learn to make do with what’s available. The more you learn how to do with what you
-								have, the more you have when you’re done doing what you do. A grateful heart attracts more for which to be grateful. You may have personal trauma
-								that's holding you back. We coach you through the healing process so you can become the best and happiest version of yourself in every aspect of your
-								life.
+Our goal is to celebrate success, thereby creating more success! Inspiring and Empowering people to improve their quality of life by fostering a spirit of
+people helping people. If you understand only one thing I say here, let it be this: People are our best resource. Money provides options. All the money
+in the world is worthless without someone to pay for the services or goods you need. When you have money, you can afford whoever or whatever you
+need. The fewer your resources, the fewer your options. You learn to make do with what’s available. The more you learn how to do with what you
+have, the more you have when you’re done doing what you do. A grateful heart attracts more for which to be grateful. You may have personal trauma
+that's holding you back. We coach you through the healing process so you can become the best and happiest version of yourself in every aspect of your
+life.
 								<br>
 								<hr>
 								<br>

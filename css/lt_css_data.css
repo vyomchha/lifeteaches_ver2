@@ -1,6 +1,6 @@
 /****************************
 	Author: vyom chhabra
-	Date  : 02/10/2018 Log: Created
+	Date  : 02/19/2018 Log: Created
 *****************************/
 
 /****************************
@@ -156,9 +156,9 @@ span.lt_body_slide_control {
     display: block;
 	position: relative;
   	color: rgba(120,120,120,1);
-	width: 1vw;
-	height: 1vw;
-	padding: 0vw .5vw 1vw .5vw;
+	width: 1.5vw;
+	height: 1.5vw;
+	padding: 0.25vw;
 	margin: 1vw;
     border: 2px solid rgba(120,120,120,1);
 	font-size: 1.5vw;
@@ -483,6 +483,12 @@ div.lt_footer {
     text-decoration:none;
     margin: 0;
   	color: rgba(120,120,120,1);
+}
+
+.fa_arr{
+	padding: 0;
+	margin: 0;
+	font-size: 3vw;
 }
 
 /****************************

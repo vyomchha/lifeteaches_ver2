@@ -20,6 +20,8 @@
         <link rel="stylesheet" type="text/css" href="css/lt_css_data.css">
 		<!--Social media stylesheet from font-awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/lt_js_data.js"></script>
@@ -65,11 +67,11 @@
 				</div>		
 			</div>
 			<div class="lt_body_slide_box">
-				<span id="lt_body_slide_btn_001" class="lt_body_slide_control" onclick="change_index(-1)">&#8593;</span>
+				<span id="lt_body_slide_btn_001" class="lt_body_slide_control fa fa_arr fa-arrow-up" onclick="change_index(-1)"></span>
 				<span id="lt_body_slide_btn_002" class="lt_body_slide_control lt_body_slide_active" onclick="change_slide(0)"></span>
 				<span id="lt_body_slide_btn_003" class="lt_body_slide_control" onclick="change_slide(1)"></span>
 				<span id="lt_body_slide_btn_004" class="lt_body_slide_control" onclick="change_slide(2)"></span>
-				<span id="lt_body_slide_btn_005" class="lt_body_slide_control" onclick="change_index(1)">&#8595;</span>
+				<span id="lt_body_slide_btn_005" class="lt_body_slide_control fa fa_arr fa-arrow-down" onclick="change_index(1)"></span>
 			</div>
 		</div>
 		
