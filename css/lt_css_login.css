@@ -13,7 +13,7 @@ body {
 	-webkit-text-size-adjust: auto;
 	text-size-adjust: auto;
 	-moz-text-size-adjust: auto;
-  	background-color: rgba(35,35,35,1);
+  	background-color: rgba(255,255,255,1);
 	background-size: 100% 100%;
 	width: 100vw;
 	min-width: 800px;
@@ -41,15 +41,27 @@ a.header_link:active {
 /****************************
 Body Data
 *****************************/
-div.lt_body {
+div.lt_body_wrapper {
     display: block;
 	position: relative;
 	width: 100vw;
-	padding: 2vw 0;
-	height: calc(100vh - 17.5vw);
+	min-width: 1000px;
+	height: calc(100vh - 171px);
+	min-height: 700px;
+	text-align: center;
+}
+
+div.lt_body {
+    display: block;
+	position: relative;
+	width: 80vw;
+	min-width: 1000px;
+	height: calc(100vh - 171px);
+	min-height: 700px;
   	background-color: rgba(255,255,255,1);
 	background-size: 100% 100%;
 	text-align: center;
+	margin: auto;
 }
 
 div.lt_body_back {
@@ -81,7 +93,7 @@ span.lt_body_header {
 div.lt_btn_menu {
 	position: relative;
 	cursor:pointer;
-	width: 30vw;
+	width: 35vw;
 	margin: 2vw auto;
 	font-size: 1.5vw;
 	text-align: center;
@@ -146,14 +158,6 @@ span.lt_btn_menu_sign {
   	color: rgba(45,45,45,1);
 }
 
-/** Social Media Styles **/
-.fa_login{
-	float: left;
-	width: 3vw;
-	font-size: 2vw;
-	padding: 1.75vw 1.5vw;
-  	color: rgba(245,245,245,1);
-}
 /****************************
 Header Data
 *****************************/
@@ -260,6 +264,14 @@ span.lt_footer_cpy {
 	padding: 20px 0 25px 0;
 }
 
+img.seal{
+    display: inline-block;
+	position: relative;
+	height: 75px;
+	width: 75px;
+	padding: 5px;
+	}
+	
 /** Social Media Styles **/
 .fa{
 	display: inline-block;
@@ -270,7 +282,13 @@ span.lt_footer_cpy {
   	color: rgba(120,120,120,1);
 }
 
-
+/** Social Media Styles **/
+.fa_login{
+	width: 5vw;
+	font-size: 5vw;
+	padding: 1.5vw;
+  	color: rgba(245,245,245,1);
+}
 /****************************
 Table Data
 *****************************/

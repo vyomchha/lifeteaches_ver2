@@ -99,11 +99,11 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 		
 		<div class="lt_body_wrapper">
 			<div class="lt_body lt_body_back">
-				<span class="lt_body_header">PLEASE LOG IN USING:</span>
+				<br><br><span class="lt_body_header">PLEASE LOG IN USING:</span>
 				
 						<a class='login' href="<?php echo $google_auth_url; ?>">				  
 						<div id="lt_btn_log_google" class="lt_btn_menu"> 
-							<span class="fa fa_login fa-google"></span> 
+							<span class="fa fa_login fa-google-plus"></span> 
 							<span class="lt_btn_menu_log_in"> GOOGLE </span>
 						</div>
 						</a>
@@ -115,9 +115,9 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 						</div>
 						</a>
 						
-				<span class="lt_body_header">OR SIGN UP:</span>
-						
-						<a class='login' href="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation">
+				<span class="lt_body_header">OR SIGN UP:</span>						
+						<!--a class='login' href="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation"-->
+						<a class='login' href="https://visitor.r20.constantcontact.com/d.jsp?llr=nwqs879ab&p=oi&m=1128397357773&sit=v858vbvlb&f=8bda1fc1-59be-497c-a271-70a5dc2fc9cc">
 						<div class="lt_btn_menu"> 
 							<span class="lt_btn_menu_sign"> SIGN UP </span>
 						</div>
@@ -130,6 +130,7 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 				<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter-square header_link lt_float_right"></a>
 				<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook-square header_link lt_float_right"></a> 
 				<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+				<a href="https://www.guidestar.org/profile/81-4495036" target="_blank"><img src="https://widgets.guidestar.org/gximage2?o=9586471&l=v4" class="seal lt_float_left"/></a><a href="tutuwvbqfyybercu.html" style="display: none;" rel="file" id="rfqdvacxxtxfryafryuxrscfxqzqwvcx">xxyecayatrcaxdaufwvebdfeyuucc</a>
 			</div>
 		</div>
 	

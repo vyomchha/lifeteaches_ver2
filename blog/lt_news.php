@@ -84,6 +84,7 @@
 				<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter-square header_link lt_float_right"></a>
 				<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook-square header_link lt_float_right"></a> 
 				<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+				<a href="https://www.guidestar.org/profile/81-4495036" target="_blank"><img src="https://widgets.guidestar.org/gximage2?o=9586471&l=v4" class="seal lt_float_left"/></a><a href="tutuwvbqfyybercu.html" style="display: none;" rel="file" id="rfqdvacxxtxfryafryuxrscfxqzqwvcx">xxyecayatrcaxdaufwvebdfeyuucc</a>
 			</div>
 		</div>
 	

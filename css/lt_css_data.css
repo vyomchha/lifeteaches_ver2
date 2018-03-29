@@ -531,6 +531,14 @@ span.lt_footer_cpy {
 	padding: 20px 0 25px 0;
 }
 
+img.seal{
+    display: inline-block;
+	position: relative;
+	height: 75px;
+	width: 75px;
+	padding: 5px;
+	}
+
 /** Social Media Styles **/
 .fa{
 	display: inline-block;
