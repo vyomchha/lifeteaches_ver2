@@ -49,9 +49,9 @@
 				echo "</form></tr>";
 			}
 			mysqli_close($conn);
-				echo "<tr><form action='lt_admin_news_update.php' method='post' enctype='multipart/form-data'>";
+				echo "<tr><form action='lt_admin_news_insert.php' method='post' enctype='multipart/form-data'>";
 				echo "<td><input type='hidden' name='ID' value='".($ID+1)."' readonly>".($ID+1)."</td>";
-				echo "<td colspan='4'><input type='submit' name='action' value='insert'></td>";
+				echo "<td colspan='4'><input type='submit' name='action' value='insert new'></td>";
 				echo "</form></tr>";
 			echo "</table></div>";
 		?>
