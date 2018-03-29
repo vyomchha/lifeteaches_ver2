@@ -147,17 +147,6 @@ span.lt_btn_menu_sign {
 }
 
 /** Social Media Styles **/
-.fa{
-	display: inline-block;
-	position: relative;
-	padding: 1vw;
-	font-size: 3vw;
-	margin: 0;
-    text-decoration:none;
-  	color: rgba(120,120,120,1);
-}
-
-/** Social Media Styles **/
 .fa_login{
 	float: left;
 	width: 3vw;
@@ -168,40 +157,49 @@ span.lt_btn_menu_sign {
 /****************************
 Header Data
 *****************************/
-div.lt_header {
+div.lt_header_wrapper {
     display: block;
 	position: relative;
   	color: rgba(120,120,120,1);
-	font-size: 1.25vw;
 	width: 100vw;
-	height: 8vw;
+	min-width: 1000px;
+	height: 85px;
 	padding: 0;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 	border-bottom: 1px solid rgba(155,155,155,1);
   	background-color: rgba(255,255,255,1);
 	background-size: 100% 100%;
 }
 
+div.lt_header {
+    display: block;
+	position: relative;
+  	color: rgba(120,120,120,1);
+	font-size: 20px;
+	width: 80vw;
+	min-width: 1000px;
+	height: 85px;
+	padding: 0;
+	margin: auto;
+	text-align: left;
+}
+
 span.lt_header_btn {
     display: inline-block;
 	position: relative;
-	height: 2vw;
-	margin: 1vw 2vw;
-	padding: 2vw 0;
-	text-align: center;
-	border-radius: 10%;
-  	background-color: rgba(255,255,255,1);
-	background-size: 100% 100%;
+	height: 20px;
+	margin: 10px;
+	padding: 20px 0 25px 0;
 	text-align: center;
 }
 
 div.lt_header_logo {
     display: inline-block;
 	position: relative;
-	width: 6vw;
-	height: 6vw;
-	margin: 1vw;
+	width: 65px;
+	height: 65px;
+	margin: 10px;
   	background-color: rgba(25,25,25,1);
 	background-image: url("../img/lt_logo_002.png");
 	background-size: 100% 100%;
@@ -228,24 +226,50 @@ span.lt_header_client {
 /****************************
 Footer Data
 *****************************/
-span.lt_footer_cpy {
+div.lt_footer_wrapper {
     display: inline-block;
 	position: relative;
-	width: 20vw;
+  	color: rgba(120,120,120,1);
+	width: 100vw;
+	min-width: 1000px;
+	height: 85px;
 	text-align: center;
-	font-size: 1vw;
-	padding: 1.75vw 0;
+  	background-color: rgba(25,25,25,1);
+	background-size: 100% 100%;
 }
 
 div.lt_footer {
     display: block;
 	position: relative;
   	color: rgba(120,120,120,1);
-	float: bottom;
-	width: 100vw;
-	font-size: 3vw;
+	width: 80vw;
+	height: 85px;
+	min-width: 1000px;
 	text-align: left;
+	font-size: 65px;
+	margin: auto;
 }
+
+span.lt_footer_cpy {
+    display: inline-block;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	height: 20px;
+	margin: 10px;
+	padding: 20px 0 25px 0;
+}
+
+/** Social Media Styles **/
+.fa{
+	display: inline-block;
+	position: relative;
+	padding: 10px 5px;
+	margin: 0;
+    text-decoration:none;
+  	color: rgba(120,120,120,1);
+}
+
 
 /****************************
 Table Data

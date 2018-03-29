@@ -12,6 +12,7 @@ function finish($conn) {
 $ID = 0;
 $cdate = date("Y-m-d");
 $header = "Header Title";
+$teaser = "some text to explain the heading";
 $sql = "";
 	
 //$orgs = $area = $serv = NULL;
@@ -23,6 +24,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	if(!empty($_POST["header"])) {
 		$header = test_input($_POST["header"]);
 	}
+	if(!empty($_POST["teaser"])) {
+		$teaser = test_input($_POST["teaser"]);
+	}
 	
 	//FILE_HT CHECK, HTML FORMAT BLOG POST
 	if(!empty($_POST["file_ht"])) {
@@ -30,9 +34,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		//echo "FILE POSTED:<br>$file_ht<hr>";
 	}	
 	else {
-		$handle_file_ht = fopen($content_ht, "r") or die('Cannot open file:  '.$content_ht);
-		$file_ht = fread($handle_file_ht,filesize($content_ht));
-		//echo "FILE NOT POSTED:<br>$file_ht<hr>";
+		if ($_POST["action"] == "insert"){
+			$handle_file_ht = fopen($content_ht, "w") or die('Cannot open file:  '.$content_ht);
+		}
+		else {
+			$handle_file_ht = fopen($content_ht, "r") or die('Cannot open file:  '.$content_ht);
+			$file_ht = fread($handle_file_ht,filesize($content_ht));
+			//echo "FILE NOT POSTED:<br>$file_ht<hr>";
+		}
 	}
 	
 	//FILE_JS CHECK, JSON FORMAT BLOG POST
@@ -41,9 +50,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		//echo "FILE POSTED:<br>$file_js<hr>";
 	}
 	else {
-		$handle_file_js = fopen($content_js, "r") or die('Cannot open file:  '.$content_js);
-		$file_js = fread($handle_file_js,filesize($content_js));
-		//echo "FILE NOT POSTED:<br>$file_js<hr>";
+		if ($_POST["action"] == "insert"){
+			$handle_file_js = fopen($content_js, "w") or die('Cannot open file:  '.$content_js);
+		}
+		else {
+			$handle_file_js = fopen($content_js, "r") or die('Cannot open file:  '.$content_js);
+			$file_js = fread($handle_file_js,filesize($content_js));
+			//echo "FILE NOT POSTED:<br>$file_js<hr>";
+		}
 	}
 }
 
@@ -58,9 +72,9 @@ if ($conn->connect_error) {
 }
 
 if ($_POST["action"] == "delete"){$sql="DELETE FROM News WHERE  ID='$ID'";} 
-if ($_POST["action"] == "insert"){$sql="INSERT INTO News SET ID='$ID', header='$header', content_ht='$content_ht', content_js='$content_js', cdate='$cdate'";} 
+if ($_POST["action"] == "insert"){$sql="INSERT INTO News SET ID='$ID', header='$header', content_ht='$content_ht', content_js='$content_js', cdate='$cdate', teaser='$teaser'";} 
 if ($_POST["action"] == "update"){
-	$sql="UPDATE News SET header='$header', content_ht='$content_ht', content_js='$content_js', cdate='$cdate' WHERE  ID='$ID'";
+	$sql="UPDATE News SET header='$header', content_ht='$content_ht', content_js='$content_js', cdate='$cdate', teaser='$teaser' WHERE  ID='$ID'";
 	$handle_file_ht = fopen($content_ht, "w") or die('Cannot open file:  '.$content_ht);
 	$handle_file_js = fopen($content_js, "w") or die('Cannot open file:  '.$content_js);
 	fwrite($handle_file_ht, $file_ht);
@@ -75,7 +89,7 @@ if ($_POST["action"] == "delete") {
 	die();
 	}
 	
-//echo "$ID<br>$header<br>$cdate<br>$content_ht<br>$content_js<br>RESULT=$result<hr>";
+//echo "$ID<br>$header<br>$cdate<br>$content_ht<br>$content_js<br>$teaser<br>RESULT=$result<hr>";
 ?>
 
 <html>
@@ -111,6 +125,7 @@ if ($_POST["action"] == "delete") {
 			border: solid black;
 			padding: 2vw;
 			margin: 0 1.5vw;
+			height: 50vh;
 		}
 		#editor-container {
 			height: 50vh;
@@ -124,16 +139,17 @@ if ($_POST["action"] == "delete") {
 		echo "<br><br><table><tr>";
 		echo "<form action='lt_admin_news_update.php' method='post' enctype='multipart/form-data'>";
 		echo "<td><a href='http://www.lifeteaches.org/admin/lt_admin_news.php'>Back to Selection</a></td>";
-		echo "<td><input type='hidden' name='ID' value='$ID' readonly>ID:$ID</td>";
 		echo "<td><input type='hidden' name='cdate' value='$cdate' readonly>$cdate</td>";
-		echo "<td class='td_long'>HEADING:<input type='text' name='header' value='$header'></td>";
+		echo "<td><input type='hidden' name='ID' value='$ID' readonly>HEADING:</td>";
+		echo "<td class='td_long'><input type='text' name='header' value='$header'></td>";
 		echo "<td><input type='submit' name='action' value='update'></td>";
 		echo "<input type='hidden' name='content_js' value='$content_js' readonly>";
 		echo "<input type='hidden' name='content_ht' value='$content_ht' readonly>";
 		echo "<input type='hidden' name='file_js' value='$file_js' readonly>";
 		echo "<input type='hidden' name='file_ht' value='$file_ht' readonly>";
+		echo "</tr><tr><td>TEASER:</td><td colspan='4'><input type='text' name='teaser' value='$teaser'></td>";
 		echo "</form></tr></table><br><hr><br>";
-		echo "<div id='pre'><h1>$header</h1><hr>".html_entity_decode($file_ht)."</div>";
+		echo "<div id='pre' class='ql-editor'><h1>$header</h1><hr>".html_entity_decode($file_ht)."</div>";
 	?>
 		<div id="m-container">
 			<div id="editor-container"></div>

@@ -27,29 +27,35 @@
 	</head>
 
 	<body>
-			
-		<div class="lt_header">
-			<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
-			<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
-			<a href="lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
-			<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
-			<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>			
-			<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>
-		</div>
-		
-		<div class="lt_body">
-			<div class="lt_body_donate">
-			<!--iframe src="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation"></iframe-->
-			<!--iframe src="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=donation2&userfolder=../ORG/lifeteaches"></iframe-->
-			<iframe src="https://www.gofundme.com/lifeteaches"></iframe>
-			
+	
+		<div class="lt_header_wrapper">	
+			<div class="lt_header">
+				<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
+				<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
+				<a href="blog/lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
+				<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
+				<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
+				<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
 			</div>
 		</div>
 		
-		<div class="lt_footer">
-			<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter header_link lt_float_right"></a>
-			<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook header_link lt_float_right"></a> 
-			<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+		<div class="lt_body_wrapper">
+			<div class="lt_body">
+				<div class="lt_body_donate">
+				<!--iframe src="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation"></iframe-->
+				<!--iframe src="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=donation2&userfolder=../ORG/lifeteaches"></iframe-->
+				<iframe src="https://www.gofundme.com/lifeteaches"></iframe>
+				
+				</div>
+			</div>
+		</div>
+		
+		<div class="lt_footer_wrapper">
+			<div class="lt_footer">
+				<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter-square header_link lt_float_right"></a>
+				<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook-square header_link lt_float_right"></a> 
+				<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+			</div>
 		</div>
 	
 	</body>

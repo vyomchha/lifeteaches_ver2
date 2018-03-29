@@ -86,46 +86,51 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 
 	<body onload="startup();">
 			
-		<div class="lt_header">
-			<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
-			<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
-			<a href="lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
-			<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
-			<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
-			<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>
-			<!--a href="lt_contact.php" class="header_link"><span class="lt_header_client lt_float_right"></span></a-->
+		<div class="lt_header_wrapper">	
+			<div class="lt_header">
+				<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
+				<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
+				<a href="blog/lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
+				<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
+				<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
+				<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
+			</div>
 		</div>
 		
-		<div class="lt_body lt_body_back">
-			<span class="lt_body_header">PLEASE LOG IN USING:</span>
-			
-					<a class='login' href="<?php echo $google_auth_url; ?>">				  
-					<div id="lt_btn_log_google" class="lt_btn_menu"> 
-						<span class="fa fa_login fa-google"></span> 
-						<span class="lt_btn_menu_log_in"> GOOGLE </span>
-					</div>
-					</a>
-					
-					<a class='login' href="<?php echo $facebook_auth_url; ?>">
-					<div id="lt_btn_log_facebook" class="lt_btn_menu"> 
-						<span class="fa fa_login fa-facebook"></span> 
-						<span class="lt_btn_menu_log_in"> FACEBOOK </span>
-					</div>
-					</a>
-					
-			<span class="lt_body_header">OR SIGN UP:</span>
-					
-					<a class='login' href="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation">
-					<div class="lt_btn_menu"> 
-						<span class="lt_btn_menu_sign"> SIGN UP </span>
-					</div>
-					</a>
+		<div class="lt_body_wrapper">
+			<div class="lt_body lt_body_back">
+				<span class="lt_body_header">PLEASE LOG IN USING:</span>
+				
+						<a class='login' href="<?php echo $google_auth_url; ?>">				  
+						<div id="lt_btn_log_google" class="lt_btn_menu"> 
+							<span class="fa fa_login fa-google"></span> 
+							<span class="lt_btn_menu_log_in"> GOOGLE </span>
+						</div>
+						</a>
+						
+						<a class='login' href="<?php echo $facebook_auth_url; ?>">
+						<div id="lt_btn_log_facebook" class="lt_btn_menu"> 
+							<span class="fa fa_login fa-facebook"></span> 
+							<span class="lt_btn_menu_log_in"> FACEBOOK </span>
+						</div>
+						</a>
+						
+				<span class="lt_body_header">OR SIGN UP:</span>
+						
+						<a class='login' href="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation">
+						<div class="lt_btn_menu"> 
+							<span class="lt_btn_menu_sign"> SIGN UP </span>
+						</div>
+						</a>
+			</div>
 		</div>
 		
-		<div class="lt_footer">
-			<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter header_link lt_float_right"></a>
-			<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook header_link lt_float_right"></a> 
-			<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+		<div class="lt_footer_wrapper">
+			<div class="lt_footer">
+				<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter-square header_link lt_float_right"></a>
+				<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook-square header_link lt_float_right"></a> 
+				<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>
+			</div>
 		</div>
 	
 	</body>

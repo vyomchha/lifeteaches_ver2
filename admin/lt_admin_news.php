@@ -40,6 +40,7 @@
 				echo "<tr><form action='lt_admin_news_update.php' method='post' enctype='multipart/form-data'>";
 				echo "<input type='hidden' name='content_ht' value='".$row['content_ht']."' readonly>";
 				echo "<input type='hidden' name='content_js' value='".$row['content_js']."' readonly>";
+				echo "<input type='hidden' name='teaser' value='".$row['teaser']."' readonly>";
 				echo "<td><input type='hidden' name='ID' value='".$row['ID']."' readonly>".$row['ID']."</td>";
 				echo "<td><input type='hidden' name='cdate' value='".$row['cdate']."' readonly>".$row['cdate']."</td>";
 				echo "<td class='td_long'><input type='hidden' name='header' value='".$row['header']."' readonly>".$row['header']."</td>";
