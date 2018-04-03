@@ -30,12 +30,12 @@
 	
 		<div class="lt_header_wrapper">	
 			<div class="lt_header">
-				<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
-				<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
-				<a href="blog/lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
-				<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
-				<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
-				<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
+				<a href="lt_home" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
+				<a href="lt_home" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
+				<a href="blog/lt_news" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
+				<a href="lt_donate" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
+				<a href="lt_contact" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
+				<a href="lt_log_in" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
 			</div>
 		</div>
 		
@@ -50,7 +50,7 @@
 				
 				<div class="lt_body_contact_form">
 					<span class="lt_body_contact_head"> Send us a message: </span> <br>
-					<form action="lt_email.php" method="post" name="emailform" enctype="multipart/form-data">
+					<form action="lt_email" method="post" name="emailform" enctype="multipart/form-data">
 					<table class="lt_form">
 					<tr> <td> <input type="text" name="name" required placeholder="Please enter your name"> </td> </tr>
 					<tr> <td> <input type="email" name="email" required placeholder="Please enter a valid email address"> </td> </tr>

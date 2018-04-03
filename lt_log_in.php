@@ -10,7 +10,7 @@ require_once ("vendor/autoload.php");
 $g_client = new Google_Client();
 $g_client->setClientId("32130717978-rkpvcg6r8qsc14rk1hkkdkvfr5m91uj4.apps.googleusercontent.com");
 $g_client->setClientSecret("fSSX51fi8vfIm7BYeJ1sILZD");
-$g_client->setRedirectUri("http://www.lifeteaches.org/lt_log_in.php");
+$g_client->setRedirectUri("http://www.lifeteaches.org/lt_log_in");
 $g_client->setScopes("email");
 //Step 2 : Create the url
 $google_auth_url = $g_client->createAuthUrl();
@@ -88,12 +88,12 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 			
 		<div class="lt_header_wrapper">	
 			<div class="lt_header">
-				<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
-				<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
-				<a href="blog/lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
-				<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
-				<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
-				<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
+				<a href="lt_home" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
+				<a href="lt_home" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
+				<a href="blog/lt_news" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
+				<a href="lt_donate" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
+				<a href="lt_contact" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
+				<a href="lt_log_in" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
 			</div>
 		</div>
 		

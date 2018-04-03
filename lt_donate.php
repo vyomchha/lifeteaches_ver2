@@ -30,12 +30,12 @@
 	
 		<div class="lt_header_wrapper">	
 			<div class="lt_header">
-				<a href="lt_home.php" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
-				<a href="lt_home.php" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
-				<a href="blog/lt_news.php" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
-				<a href="lt_donate.php" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
-				<a href="lt_contact.php" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
-				<a href="lt_log_in.php" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
+				<a href="lt_home" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
+				<a href="lt_home" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
+				<a href="blog/lt_news" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
+				<a href="lt_donate" class="header_link"><span class="lt_header_btn lt_float_left">DONATE</span></a>
+				<a href="lt_contact" class="header_link"><span class="lt_header_btn lt_float_left">CONTACT</span></a>
+				<a href="lt_log_in" class="header_link"><span class="lt_header_btn lt_float_right">LOGIN</span></a>	
 			</div>
 		</div>
 		

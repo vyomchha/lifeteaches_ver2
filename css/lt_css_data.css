@@ -3,6 +3,7 @@
 	Date  : 02/19/2018 Log: Created
 *****************************/
 
+@media only screen and (min-width: 800px) {
 /****************************
 Common Data
 *****************************/
@@ -621,4 +622,6 @@ input[type=submit]:hover {
 input:focus {
 	transition: color 1.0s ease, background-color 1.0s ease;
     background-color: rgba(90,90,90,.8);
+}
+
 }
