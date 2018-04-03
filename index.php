@@ -31,8 +31,8 @@
 
 	<body onload="startup();">
 	
-		<div class="lt_header_wrapper">	
-			<div class="lt_header">
+		<div class="lt_header_wrapper lt_min_width">	
+			<div class="lt_header lt_min_width">
 				<a href="lt_home" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
 				<a href="lt_home" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
 				<a href="blog/lt_news" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
@@ -42,16 +42,16 @@
 			</div>
 		</div>
 
-		<div class="lt_body_wrapper">
-			<div id="foo" class="lt_body lt_body_back">
-				<div id="lt_body_slide_001" class="lt_body_item" style="opacity: 1;">	
+		<div class="lt_body_wrapper lt_min_width lt_min_height">
+			<div id="foo" class="lt_body lt_body_back lt_min_width lt_min_height">
+				<div id="lt_body_slide_001" class="lt_body_item lt_min_width lt_min_height" style="opacity: 1;">	
 					<div class="lt_body_banner"><span class="lt_color_head_blue">Life</span>Teaches</div>
 					<div class="lt_body_phrase">PEOPLE HELPING PEOPLE HELP MORE PEOPLE</div>		
 				</div>
-				<div id="lt_body_slide_002" class="lt_body_item">	
+				<div id="lt_body_slide_002" class="lt_body_item lt_min_width lt_min_height">	
 					<div class="lt_body_phrase"><em>"Created to empower and restore hope and faith in humanity in the spirit of people helping people to solve all the world's problems. One problem at a time, one person at a time."</em></div>		
 				</div>
-				<div id="lt_body_slide_003" class="lt_body_item" onmouseenter="timer.stop()" onmouseleave="timer.start()">	
+				<div id="lt_body_slide_003" class="lt_body_item lt_min_width lt_min_height" onmouseenter="timer.stop()" onmouseleave="timer.start()">	
 					<div class="lt_body_data">
 						Money provides options, but PEOPLE are our most valuable resource.<br>
 						Fun to say, but it's who we are and what we do.<br>
@@ -78,8 +78,8 @@
 			</div>
 		</div>
 		
-		<div class="lt_footer_wrapper">
-			<div class="lt_footer">
+		<div class="lt_footer_wrapper lt_min_width">
+			<div class="lt_footer lt_min_width">
 				<a href="https://www.twitter.com/LifeTeachesFndn" target="_blank" class="fa fa-twitter-square header_link lt_float_right"></a>
 				<a href="https://www.facebook.com/LifeTeachesFoundation" target="_blank" class="fa fa-facebook-square header_link lt_float_right"></a> 
 				<span class="lt_float_left lt_footer_cpy">&copy;2016-2018 LifeTeaches</span>

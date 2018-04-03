@@ -29,8 +29,8 @@
 
 	<body>
 	
-		<div class="lt_header_wrapper">	
-			<div class="lt_header">
+		<div class="lt_header_wrapper lt_min_width">	
+			<div class="lt_header lt_min_width">
 				<a href="../lt_home" class="header_link"><div class="lt_header_logo lt_float_left"></div></a>
 				<a href="../lt_home" class="header_link"><span class="lt_header_btn lt_float_left">HOME</span></a>
 				<a href="lt_news" class="header_link"><span class="lt_header_btn lt_float_left">NEWS</span></a>
@@ -40,8 +40,8 @@
 			</div>
 		</div>
 		
-		<div class="lt_body_wrapper">
-				<div class="lt_body_blog">
+		<div class="lt_body_wrapper lt_min_width lt_min_height">
+			<div id="foo" class="lt_body lt_body_back lt_min_width lt_min_height">
 				<?php
 					require ("../etc/config.php");
 
