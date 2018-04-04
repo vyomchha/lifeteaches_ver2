@@ -27,7 +27,7 @@
 
 	</head>
 
-	<body>
+	<body class="lt_bdw">
 	
 		<div class="lt_header_wrapper lt_min_width">	
 			<div class="lt_header lt_min_width">

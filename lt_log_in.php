@@ -103,14 +103,14 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 				
 						<a class='login' href="<?php echo $google_auth_url; ?>">				  
 						<div id="lt_btn_log_google" class="lt_btn_menu"> 
-							<span class="fa fa_login fa-google-plus"></span> 
+							<a class="fa fa_login fa-google-plus"></a> 
 							<span class="lt_btn_menu_log_in"> GOOGLE </span>
 						</div>
 						</a>
 						
 						<a class='login' href="<?php echo $facebook_auth_url; ?>">
 						<div id="lt_btn_log_facebook" class="lt_btn_menu"> 
-							<span class="fa fa_login fa-facebook"></span> 
+							<a class="fa fa_login fa-facebook"></a> 
 							<span class="lt_btn_menu_log_in"> FACEBOOK </span>
 						</div>
 						</a>
@@ -118,7 +118,7 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 				<span class="lt_body_header">OR SIGN UP:</span>						
 						<!--a class='login' href="https://ots.sumacpages.com/sumac/sumac_start_new_session.php?package=signup2&userfolder=../ORG/lifeteachesfoundation"-->
 						<a class='login' href="https://visitor.r20.constantcontact.com/d.jsp?llr=nwqs879ab&p=oi&m=1128397357773&sit=v858vbvlb&f=8bda1fc1-59be-497c-a271-70a5dc2fc9cc">
-						<div class="lt_btn_menu"> 
+						<div id="lt_btn_log_sign" class="lt_btn_menu"> 
 							<span class="lt_btn_menu_sign"> SIGN UP </span>
 						</div>
 						</a>

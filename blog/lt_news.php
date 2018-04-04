@@ -41,8 +41,8 @@
 		</div>
 		
 		
-		<div class="lt_body_wrapper lt_min_width lt_min_height">
-			<div id="foo" class="lt_body lt_body_back lt_min_width lt_min_height">
+		<div class="lt_donate_wrapper lt_min_width lt_min_height">
+			<div id="foo" class="lt_news lt_min_width lt_min_height">
 				
 				<?php
 					require ("../etc/config.php");
