@@ -41,7 +41,7 @@
 		</div>
 		
 		<div class="lt_body_wrapper lt_min_width lt_min_height">
-			<div id="foo" class="lt_body lt_body_back lt_min_width lt_min_height">
+			<div id="foo" class="lt_body lt_min_width lt_min_height">
 				<?php
 					require ("../etc/config.php");
 
@@ -72,7 +72,15 @@
 					
 				?>
 				
-					<div id="fb-root" style="display: block;position: relative;">PLEASE TURN OFF TRACKING PROTECTION TO LIKE OR COMMENT VIA FACEBOOK</div>
+					<div id="fb-root"></div>
+					<script>
+					var canreach = false;
+					$(function() {
+						$('#fb-root')
+							.load(function(){canreach = true;})
+							.css("display", "none");
+					});
+					</script>
 					<script>(function(d, s, id) {
 					  var js, fjs = d.getElementsByTagName(s)[0];
 					  if (d.getElementById(id)) return;
@@ -92,6 +100,8 @@
 					  <!-- Your like button code -->
 					<div class="fb-like" data-href="<?php echo "http://lifeteaches.org/blog?ID=$ID";?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 					<div  style="display: block;position: relative;" class="fb-comments" data-href="<?php echo "http://lifeteaches.org/blog?ID=$ID";?>" data-width="100%" data-numposts="5"></div>
+					
+					<hr><div id="fb-status" style="display: block;position: relative;">PLEASE TURN OFF TRACKING PROTECTION TO LIKE OR COMMENT VIA FACEBOOK</div><hr>
 			</div>
 		</div>
 			
