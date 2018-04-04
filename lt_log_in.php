@@ -97,8 +97,8 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 			</div>
 		</div>
 		
-		<div class="lt_body_wrapper">
-			<div class="lt_body lt_body_back">
+		<div class="lt_body_wrapper lt_min_width lt_min_height">
+			<div id="foo" class="lt_body lt_body_back lt_min_width lt_min_height">
 				<br><br><span class="lt_body_header">PLEASE LOG IN USING:</span>
 				
 						<a class='login' href="<?php echo $google_auth_url; ?>">				  

@@ -57,7 +57,7 @@ a.list_link:active {
 Login Page - Common Data
 *****************************/
 span.lt_body_header {
-	font-size: 1.25vw;
+	font-size: 2.25vw;
 	top: 5vw;
 	color: rgba(120,120,120,1);
 }
@@ -113,8 +113,8 @@ span.lt_btn_menu_log_in {
 	display: inline-block;
 	position: relative;
 	cursor:pointer;
-	width: 80vw;
-	padding: 1.5vw;
+	width: 50vw;
+	padding: 1.5vw 0;
 	text-align: center;
 	color: rgba(245,245,245,1);
 	border-left: solid 2px rgba(45,45,45,1);
@@ -125,11 +125,33 @@ span.lt_btn_menu_sign {
 	position: relative;
 	cursor:pointer;
 	width: 80vw;
-	padding: 1.5vw;
+	padding: 1.5vw 0;
 	text-align: center;
 	color: rgba(45,45,45,1);
 }
 
+/** Social Media Styles **/
+.fa{
+	display: inline-block;
+	position: relative;
+	padding: 10px 5px;
+	margin: 0;
+	text-decoration:none;
+	color: rgba(120,120,120,1);
+}
+
+.fa_login{
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-size: 10vw;
+	width: 20vw;
+}
+
+/****************************
+Reactive Data
+*****************************/
 
 @media only screen and (min-width: 700px) {
 	
@@ -1464,24 +1486,11 @@ News Page
 		position: relative;
 		color: rgba(120,120,120,1);
 		width: 100vw;
-		height: 20vw;
+		min-height: 50vw;
 		font-size: 2vw;
 		float: left;
 		text-align: center;
 		clear: none;
-	}
-
-	div.lt_body_news_item:hover > span.lt_body_news_item {
-		visibility: hidden;
-		opacity: 0;
-	}
-	div.lt_body_news_item:hover > span.lt_body_news_date {
-		visibility: hidden;
-		opacity: 0;
-	}
-	div.lt_body_news_item:hover > div.lt_body_news_data {
-		visibility: visible;
-		opacity: 1;
 	}
 
 	#lt_body_news_item_col{
@@ -1516,52 +1525,34 @@ News Page
 
 	span.lt_body_news_item {
 		display: block;
-		position: absolute;
+		position: relative;
 		text-align: center;
-		width: 100%;
-		margin: 8vw auto;
-		font-size: 30px;
-		opacity: 1;
-		-webkit-transition: all .7s ease-in;
-		-moz-transition: all .7s ease-in;
-		-ms-transition: all .7s ease-in;
-		-o-transition: all .7s ease-in;
-		transition: all .7s ease-in;
+		width: 100vw;
+		min-height: 7vw;
+		margin: 7vw auto;
+		font-size: 5vw;
 	}
 
 	span.lt_body_news_date {
 		display: block;
 		position: absolute;
 		text-align: left;
-		margin: 10px;
-		font-size: 20px;
-		opacity: 1;
-		-webkit-transition: all .7s ease-in;
-		-moz-transition: all .7s ease-in;
-		-ms-transition: all .7s ease-in;
-		-o-transition: all .7s ease-in;
-		transition: all .7s ease-in;
+		margin: 1vw;
+		font-size: 3vw;
 	}
 
 	div.lt_body_news_data {
 		display: inline-block;
 		position: relative;
 		color: rgba(120,120,120,1);
-		width: 100%;
-		height: 100%;
-		padding: 0 10px;
-		font-size: 20px;
+		width: 100vw;
+		height: 30vw;
+		font-size: 3vw;
 		float: left;
 		text-align: left;
 		clear: none;
-		visibility: hidden;
-		opacity: 0;
-		-webkit-transition: all .7s ease-in;
-		-moz-transition: all .7s ease-in;
-		-ms-transition: all .7s ease-in;
-		-o-transition: all .7s ease-in;
-		transition: all .7s ease-in;
-		overflow:auto;
+		overflow:none;
+		border-top: 1px solid black;
 	}
 
 /****************************
