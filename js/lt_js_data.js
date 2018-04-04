@@ -51,14 +51,14 @@ function change_slide(ind) {
 	timer.reset(5000);
 	slides = document.getElementsByClassName("lt_body_item");
 	slide_cntrl = document.getElementsByClassName("lt_body_slide_control");
-	for (i = 1; i < slide_cntrl.length-1; i++) {
+	for (i = 2; i < slide_cntrl.length-2; i++) {
 		slide_cntrl[i].className = "lt_body_slide_control";
 	}
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.opacity = 0;
 	}
 	slides[ind].style.opacity = 1;
-	slide_cntrl[ind+1].className += " lt_body_slide_active";
+	slide_cntrl[ind+2].className += " lt_body_slide_active";
 	def_ind=ind;
 	
 }

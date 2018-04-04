@@ -74,7 +74,7 @@ $facebook_auth_url = $helper->getLoginUrl('http://www.lifeteaches.org/lt_log_in_
 		<meta name="google-signin-client_id" content="990784423612-l3kkc8u2n1rcbhoodj7lnnk9cqb977bl.apps.googleusercontent.com">
 			
 		<!--Link StyleSheets-->
-        <link rel="stylesheet" type="text/css" href="css/lt_css_login.css">
+        <link rel="stylesheet" type="text/css" href="css/lt_css_data.css">
 		<!--Social media stylesheet from font-awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		

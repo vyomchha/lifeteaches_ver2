@@ -70,11 +70,13 @@
 				</div>
 			</div>
 			<div class="lt_body_slide_box">
-				<span id="lt_body_slide_btn_001" class="lt_body_slide_control fa fa_arr fa-arrow-up" onclick="change_index(-1)"></span>
+				<span id="lt_body_slide_btn_001" class="lt_body_slide_control fa fa_arr fa-arrow-up lt_dis_lan" onclick="change_index(-1)"></span>
+				<span id="lt_body_slide_btn_001" class="lt_body_slide_control fa fa_arr fa-arrow-left lt_dis_pot" onclick="change_index(-1)"></span>
 				<span id="lt_body_slide_btn_002" class="lt_body_slide_control lt_body_slide_active" onclick="change_slide(0)"></span>
 				<span id="lt_body_slide_btn_003" class="lt_body_slide_control" onclick="change_slide(1)"></span>
 				<span id="lt_body_slide_btn_004" class="lt_body_slide_control" onclick="change_slide(2)"></span>
-				<span id="lt_body_slide_btn_005" class="lt_body_slide_control fa fa_arr fa-arrow-down" onclick="change_index(1)"></span>
+				<span id="lt_body_slide_btn_005" class="lt_body_slide_control fa fa_arr fa-arrow-down lt_dis_lan" onclick="change_index(1)"></span>
+				<span id="lt_body_slide_btn_005" class="lt_body_slide_control fa fa_arr fa-arrow-right lt_dis_pot" onclick="change_index(1)"></span>
 			</div>
 		</div>
 		

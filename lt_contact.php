@@ -2,7 +2,7 @@
 
 	<head>
 	
-		<title> Life Teaches Foundation </title>
+		<title> Life Teaches Foundation - Contact </title>
 
         <meta charset="UTF-8">
 		<meta http-equiv="content-type" content="text/html;">
@@ -46,7 +46,7 @@
 				<div class="lt_body_contact">
 				<div class="lt_body_contact_data">
 					<span class="lt_body_contact_head"> Reach us at: </span> <br><br>
-					<span class="lt_body_contact_para"> Life Teaches Foundation <br><br> Chicago, Illinois 60645 <br><br> Phone: 773.315.0110 <br><br> Email: yael@lifeteaches.org </span>
+					<span class="lt_body_contact_para"> Life Teaches Foundation <br><br> Chicago, Illinois 60645 <br><br> Phone: 773.315.0110 <br><br> Email: yael@lifeteaches.org <br><br></span>
 				</div>
 				
 				<div class="lt_body_contact_form">

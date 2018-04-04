@@ -2,7 +2,7 @@
 
 	<head>
 	
-		<title> Life Teaches Foundation </title>
+		<title> Life Teaches Foundation - News </title>
 
         <meta charset="UTF-8">
 		<meta http-equiv="content-type" content="text/html;">
